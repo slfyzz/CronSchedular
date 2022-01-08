@@ -133,3 +133,4 @@ Further Improvements:
 - Allowing the same job to be executed multiple times in parallel.
 - adding more statistical operations, such as calculating the actual average execution time.
 - Allowing to cancel jobs and manipulate existing jobs.
+- Adding more tests for the monitoring, and to cover test cases for large number of jobs
