@@ -86,7 +86,7 @@ class SchedulerTest {
         );
 
         // adding some noise to actual execution, the overhead of sync and adding to queues (usually by 30ms).
-        Thread.sleep(550);
+        Thread.sleep(600);
         Assertions.assertEquals(0, scheduler.getNumberOfRunningTasks());
         Assertions.assertEquals(1, scheduler.getQueueSize());
         Assertions.assertFalse(scheduler.isSchedulerRunning());
