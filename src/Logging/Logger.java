@@ -13,7 +13,7 @@ public class Logger {
     }
 
     public static void endExec(String id, long expected, long actual) {
-        System.out.printf(id + "::" + getTime() + "::Ended, actual %d, expected %d" + "%n", actual, expected);
+        System.out.printf(id + "::" + getTime() + "::Ended, actual %d seconds, expected %d seconds" + "%n", actual, expected);
     }
 
     private static String getTime() {

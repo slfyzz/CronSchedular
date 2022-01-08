@@ -7,10 +7,10 @@ public class main {
 
         Scheduler scheduler = new Scheduler();
 
-        scheduler.addTask("1", Duration.ofSeconds(1), Duration.ofSeconds(10), () -> {
+        scheduler.addTask("1", Duration.ofSeconds(1), Duration.ofSeconds(1), () -> {
             System.out.println("1: Starting working");
             try {
-                Thread.sleep(10000);
+                Thread.sleep(50000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
